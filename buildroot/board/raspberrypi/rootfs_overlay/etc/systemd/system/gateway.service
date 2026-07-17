@@ -1,0 +1,23 @@
+[Unit]
+
+Description=Smart Home Gateway
+
+After=network.target
+After=mosquitto.service
+
+[Service]
+
+Type=simple
+
+WorkingDirectory=/opt/GATEWAY
+
+ExecStart=/usr/bin/python3 \
+/opt/GATEWAY/gateway_main.py
+
+Restart=always
+
+User=root
+
+[Install]
+
+WantedBy=multi-user.target

@@ -1,0 +1,23 @@
+[Unit]
+Description=Smart Home Gateway Service
+
+After=network-online.target redis.service mosquitto.service
+Wants=network-online.target
+Requires=redis.service mosquitto.service
+
+
+[Service]
+Type=simple
+
+WorkingDirectory=/opt/GATEWAY
+
+ExecStart=/usr/bin/start_gateway.sh
+
+Restart=always
+RestartSec=5
+
+User=root
+
+
+[Install]
+WantedBy=multi-user.target

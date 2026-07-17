@@ -1,0 +1,26 @@
+/usr/bin/make -j1  O=/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot/output HOSTCC="/usr/bin/gcc" HOSTCXX="/usr/bin/g++" syncconfig
+make[1]: Entering directory '/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot'
+make[1]: Leaving directory '/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot'
+[7m>>> python-flask-socketio 5.3.5 Downloading[27m
+wget -nd -t 3 --connect-timeout=10 -O '/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot/output/build/.flask_socketio-5.3.5.tar.gz.LahSOW/output' 'https://files.pythonhosted.org/packages/source/F/Flask-SocketIO/flask_socketio-5.3.5.tar.gz' 
+--2026-07-17 17:12:11--  https://files.pythonhosted.org/packages/source/F/Flask-SocketIO/flask_socketio-5.3.5.tar.gz
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 151.101.64.223, 151.101.0.223, 151.101.192.223, ...
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|151.101.64.223|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-07-17 17:12:12 ERROR 404: Not Found.
+
+wget -nd -t 3 --connect-timeout=10 -O '/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot/output/build/.flask_socketio-5.3.5.tar.gz.JevKQX/output' 'https://sources.buildroot.net/python-flask-socketio/flask_socketio-5.3.5.tar.gz' 
+--2026-07-17 17:12:12--  https://sources.buildroot.net/python-flask-socketio/flask_socketio-5.3.5.tar.gz
+Resolving sources.buildroot.net (sources.buildroot.net)... 172.67.72.56, 104.26.0.37, 104.26.1.37, ...
+Connecting to sources.buildroot.net (sources.buildroot.net)|172.67.72.56|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-07-17 17:12:13 ERROR 404: Not Found.
+
+wget -nd -t 3 --connect-timeout=10 -O '/home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot/output/build/.flask_socketio-5.3.5.tar.gz.soE5Bi/output' 'https://sources.buildroot.net/flask_socketio-5.3.5.tar.gz' 
+--2026-07-17 17:12:13--  https://sources.buildroot.net/flask_socketio-5.3.5.tar.gz
+Resolving sources.buildroot.net (sources.buildroot.net)... 104.26.0.37, 104.26.1.37, 172.67.72.56, ...
+Connecting to sources.buildroot.net (sources.buildroot.net)|104.26.0.37|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-07-17 17:12:14 ERROR 404: Not Found.
+
+make: *** [package/pkg-generic.mk:179: /home/caoy/workspace/Centralized-Multi-Node-Smart-Home-With-Remote-OTA/buildroot/output/build/python-flask-socketio-5.3.5/.stamp_downloaded] Error 1
